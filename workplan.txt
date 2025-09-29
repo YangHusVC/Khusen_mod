@@ -1,0 +1,50 @@
+Done:
+	create culture
+	3D model of ears
+	add 3D model of ears to game
+	
+	
+To Do Next:	
+	endless localization
+	culture related headgear(ears) and gens
+	3D model of a big fuwafuwa tail
+	swinable tail
+
+Debug List:
+	cultrue color
+	[20:37:09][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod
+	[20:37:09][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_male_empty
+	[20:37:09][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_fox_ears_m_01
+	[20:38:58][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod
+	[20:38:58][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_female_empty
+	[20:38:58][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_fox_ears_01
+	[20:39:23][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod
+	[20:39:23][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_boy_empty
+	[20:39:23][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_fox_ears_m_01
+	[20:40:49][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod
+	[20:40:49][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_female_empty
+	[20:40:49][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_fox_ears_01
+	[20:36:21][E][pdx_localize.cpp:279]: Duplicate localization key. Key 'FOUNDER_BASED_NAME_POSTFIX' is defined in both 'localization/simp_chinese/dynasties/dynasty_names_l_simp_chinese.yml' and 'localization/simp_chinese/dynasties/ks_dynasty_names_l_simp_chinese.yml'.
+	[20:36:41][E][pdx_persistent_reader.cpp:216]: Error: "Malformed token: ,, near line: 2
+	Malformed token: ,, near line: 2
+	Need three or four values for color: }, near line: 2" in file: "common/culture/cultures/00_huxian.txt" near line: 2
+	[20:36:42][E][culture_name_lists.cpp:166]: Name list name_list_huxian has only %i dynasty names defined, which is less than MINIMUM_DYNASTY_NAMES
+
+
+
+_____________________________________________________________________
+Dairy & Notes:
+	Hope i can finish it
+	Look at the thumbnail.png may be helpful, if u want to give up (whatever things
+		——it's true
+	The male name Hu Da means the first born of Hu family, but (Huda) also means allah in Northwest china，just a funny fact
+	If u want to make paradox 3D models, use blender (ver<4.4.2), it's small and compatible, (it cost me a lot of time to find this
+	A 3d model is added through the following levels of files: 
+		.mesh(\gfx\models\portraits, the model)
+		<->.asset(same place, u create entity)
+		<->name accessories under \gfx\portraits\accessories
+		<->log ur acces~ris in genelist at \common\genes
+		<->add the logged models into the game (barbershop/characters) at gfx\portraits\portrait_modifiers
+	Making mod is so fking difficult, hate debugginng
+	i make a maintenance list in the dir of this file, if one day im too busy to update it, anyone can update the mod (,i think)
+		YOU CAN DO IT   I'M SURE

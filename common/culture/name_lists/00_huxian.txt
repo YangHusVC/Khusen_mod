@@ -1,0 +1,20 @@
+﻿name_list_huxian = {
+
+	cadet_dynasty_names = {
+		"dynn_ksHu"
+	}
+
+	dynasty_names = {
+		"dynn_ksHu"
+	}
+
+	male_names = {
+		ksXian ksDa
+	}
+	female_names = {
+		ksXian ksErniang ksSanniang ksSiniang ksXiaocui ksDaji
+	}
+
+	dynasty_name_first = yes
+	
+}
