@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+ #DECISION_ON_COOLDOWN: "@warning_icon! #X $DECISION_NAME$不可用，直至[DATE.GetStringLong]#!"
+ ks_mod_listen_a_story_decision: "听一个故事"
+ ks_mod_listen_a_story_decision_desc: "来听一个来自遥远国家的传说故事"
+ ks_mod_listen_a_story_decision.tt: "故事中的传说生物是真实存在的吗？你可能会愿意让人把他们带到你的宫廷"
+ ks_mod_listen_a_story_decision_tooltip: ""
+ #CHOOSE_STORY_BUTTON: 就决定是它了
+ listen_story_fox_decision: "听关于狐狸精的故事"
+ listen_story_fox_decision_desc: "听一个关于狐狸精的故事"
+ recruit_fox_cooldown_tt: "你最近已经听过这个故事了"
+ ks_mod_events.0001.t: "狐狸精的传说"
+ ks_mod_events.0001.desc: "test"
+ ks_mod_events.0001.a: "这是真的吗，我想找一只来"
+ ks_mod_events.0001.a.tt: "你的手下将花费一段时间来寻找一只狐狸精"
+ ks_mod_events.0001.b: "很有意思"
+ ks_mod_events.0001.b.tt: "没有任何影响"
+ ks_mod_listen_a_story_decision_confirm: "就决定是它了"

@@ -1,4 +1,4 @@
-portrait_fox_ears_trigger = {
+﻿portrait_fox_ears_trigger = {
 	#portrait_shared_clothing_contents_trigger = {
 	#	CULTURE_SCOPE = scope:culture
 	#	CULTURE_FLAG = afr_berber

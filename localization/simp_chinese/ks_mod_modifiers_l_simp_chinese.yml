@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+ #DECISION_ON_COOLDOWN: "@warning_icon! #X $DECISION_NAME$不可用，直至[DATE.GetStringLong]#!"
+ PORTRAIT_MODIFIER_custom_ksmod: "KSMOD新增"
+ PORTRAIT_MODIFIER_custom_ksmod_male_empty: "无"
+ PORTRAIT_MODIFIER_custom_ksmod_fox_ears_m_01: "男性狐耳"
+ PORTRAIT_MODIFIER_custom_ksmod_female_empty: "无"
+ PORTRAIT_MODIFIER_custom_ksmod_fox_ears_01: "女性狐耳"

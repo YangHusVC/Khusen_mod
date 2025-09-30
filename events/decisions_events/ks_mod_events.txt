@@ -1,0 +1,90 @@
+﻿namespace = ks_mod_events
+
+#Search for a fox
+ks_mod_events.0001 = {
+	type = character_event
+	title = {
+		desc = ks_mod_events.0001.t
+	}
+	desc = {
+		first_valid = {
+			desc = ks_mod_events.0001.desc
+		}
+	}
+	theme = university
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	right_portrait = {
+		trigger = { exists = scope:realm_priest }
+		character = scope:realm_priest
+		animation = personality_zealous
+	}
+
+	trigger = { #If I lost it before I got this event, I shouldn't get a physician
+		exists = capital_province
+	}
+
+	immediate = {
+	
+		hidden_effect = {
+			
+			if = {
+				limit = { exists = cp:councillor_court_chaplain }
+				cp:councillor_court_chaplain = {
+					save_scope_as = realm_priest
+					}
+			}
+			#Find some appropriate options
+
+			create_character = {
+				location = root.capital_province
+				template = fox_template
+				save_scope_as = fox_option
+			}
+							
+		}
+	}
+
+	#Low
+	option = {
+		trigger = {
+			is_playable_character = yes #extra check to make sure they haven't lost their status
+		}
+		name = ks_mod_events.0001.a
+
+		#custom_tooltip = ks_mod_events.0001.a.aptitude
+		if = {
+			limit = {
+					is_ai = no
+			}
+			pay_short_term_gold = {
+				target = scope:fox_option
+				gold = 200
+			}
+		}
+		custom_tooltip = ks_mod_events.0001.a.tt
+
+		add_courtier = scope:fox_option
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+
+
+	#None...
+	option = {
+		name=ks_mod_events.0001.b
+		custom_tooltip = ks_mod_events.0001.b.tt
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	#after = {
+		
+	#}
+}
