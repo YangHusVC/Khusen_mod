@@ -2,6 +2,8 @@ Done:
 	create culture
 	3D model of ears
 	add 3D model of ears to game
+	culture related headgear(ears)
+	decision to search for a huxian
 	
 	
 To Do Next:	
@@ -9,42 +11,39 @@ To Do Next:
 	culture related headgear(ears) and gens
 	3D model of a big fuwafuwa tail
 	swinable tail
+	决议事件链（而非单个事件）
+	狐仙特质，特质也和装饰（耳朵）绑定
+	狐仙文化自动触发特质事件
+	发起对宫廷中狐仙文化人物的勾引/求爱阴谋
+	当拥有狐仙文化的灵魂伴侣/情人后出现的转变文化/增加特质事件
+	独立的狐仙人种
+	（拟）狐仙转化交互选项
+	中国DLC更新后检查所有和文化相关的设定
 
-Debug List:
-	cultrue color
-	[20:37:09][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod
-	[20:37:09][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_male_empty
-	[20:37:09][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_fox_ears_m_01
-	[20:38:58][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod
-	[20:38:58][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_female_empty
-	[20:38:58][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_fox_ears_01
-	[20:39:23][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod
-	[20:39:23][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_boy_empty
-	[20:39:23][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_fox_ears_m_01
-	[20:40:49][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod
-	[20:40:49][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_female_empty
-	[20:40:49][E][pdx_locstring.cpp:93]: Key is missing localization: PORTRAIT_MODIFIER_custom_ksmod_fox_ears_01
-	[20:36:21][E][pdx_localize.cpp:279]: Duplicate localization key. Key 'FOUNDER_BASED_NAME_POSTFIX' is defined in both 'localization/simp_chinese/dynasties/dynasty_names_l_simp_chinese.yml' and 'localization/simp_chinese/dynasties/ks_dynasty_names_l_simp_chinese.yml'.
-	[20:36:41][E][pdx_persistent_reader.cpp:216]: Error: "Malformed token: ,, near line: 2
-	Malformed token: ,, near line: 2
-	Need three or four values for color: }, near line: 2" in file: "common/culture/cultures/00_huxian.txt" near line: 2
-	[20:36:42][E][culture_name_lists.cpp:166]: Name list name_list_huxian has only %i dynasty names defined, which is less than MINIMUM_DYNASTY_NAMES
-
-
+Debug List:	
+	[21:10:19][E][culture_template.cpp:90]: Gfx culture mongol_clothing_gfx in huxian doesn't match existing sequence in han
+	文本：来听一个...重复了两次（在第二个界面）
+	这个文件夹下的本地MOD加载不了？
+	Rename Anyone Interactions 的以文化命名的选项对本MOD无效
+	文化在地图上不显示颜色
+	
+	
 
 _____________________________________________________________________
 Dairy & Notes:
 	Hope i can finish it
 	Look at the thumbnail.png may be helpful, if u want to give up (whatever things
-		——it's true
 	The male name Hu Da means the first born of Hu family, but (Huda) also means allah in Northwest china，just a funny fact
+	
 	If u want to make paradox 3D models, use blender (ver<4.4.2), it's small and compatible, (it cost me a lot of time to find this
+	
 	A 3d model is added through the following levels of files: 
 		.mesh(\gfx\models\portraits, the model)
-		<->.asset(same place, u create entity)
-		<->name accessories under \gfx\portraits\accessories
-		<->log ur acces~ris in genelist at \common\genes
+		<->.asset(same place, create an entity)
+		<->name ur accessories under \gfx\portraits\accessories
+		<->log ur accessories in genelist at \common\genes
 		<->add the logged models into the game (barbershop/characters) at gfx\portraits\portrait_modifiers
-	Making mod is so fking difficult, hate debugginng
-	i make a maintenance list in the dir of this file, if one day im too busy to update it, anyone can update the mod (,i think)
+
+	******
+	I make a maintenance list in the dir of this file, if one day I‘m too busy to update it, anyone can update the mod
 		YOU CAN DO IT   I'M SURE

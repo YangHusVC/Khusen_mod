@@ -1,0 +1,32 @@
+﻿l_russian:
+ FOUNDER_BASED_NAME_POSTFIX: "$articleblank_article$"
+ ############################################################
+ #Prefixes
+ ############################################################
+ #dynnp__: "$articleblank_article$"
+ #dynnp_a: "А· "
+ 
+ ############################################################
+ #Names
+ ############################################################
+ #dynn_Abazasdze: "Абазасдзе"
+ dynn_ksHu: "Ху"
+ dynn_ksHu2: "Ху"
+ dynn_ksLinghu: "Линху"
+ dynn_ksKitsne: "Кицунэ"
+ dynn_ksKi: "Ки"
+ dynn_ksTsne: "Цунэ"
+ dynn_ksFox: "Фуци"
+ dynn_ksFo: "Фу"
+ dynn_ksRenard: "Ренар"
+ dynn_ksRe: "Ре"
+ dynn_ksNa: "На"
+ dynn_ksFuchs: "Фукс"
+ dynn_ksLisa: "Лиса"
+ dynn_ksLi: "Ли"
+ dynn_ksLi2: "Ли"
+ dynn_ksLi3: "Лэй"
+ dynn_ksTilki: "Тилки"
+ dynn_ksTi: "Ти"
+ dynn_ksUrnerg: "Урнерг"
+ dynn_ksUr: "Ур"

@@ -1,0 +1,7 @@
+﻿l_russian:
+ #DECISION_ON_COOLDOWN: "@warning_icon! #X $DECISION_NAME$ недоступно до [DATE.GetStringLong]#!"
+ PORTRAIT_MODIFIER_custom_ksmod: "KSMOD добавлено"
+ PORTRAIT_MODIFIER_custom_ksmod_male_empty: "Нет"
+ PORTRAIT_MODIFIER_custom_ksmod_fox_ears_m_01: "Мужские лисьи уши"
+ PORTRAIT_MODIFIER_custom_ksmod_female_empty: "Нет"
+ PORTRAIT_MODIFIER_custom_ksmod_fox_ears_01: "Женские лисьи уши"

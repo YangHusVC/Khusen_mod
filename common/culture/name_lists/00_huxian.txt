@@ -1,18 +1,54 @@
 ﻿name_list_huxian = {
 
-	cadet_dynasty_names = {
+	cadet_dynasty_names = {#分支王朝
 		"dynn_ksHu"
+		"dynn_ksHu2"
+		"dynn_ksLinghu"
+		"dynn_ksKitsne"
+		"dynn_ksKi"
+		"dynn_ksTsne"
+		"dynn_ksFox"
+		"dynn_ksFo"
+		"dynn_ksRenard"
+		"dynn_ksRe"
+		"dynn_ksNa"
+		"dynn_ksFuchs"
+		"dynn_ksLisa"
+		"dynn_ksLi"
+		"dynn_ksTilki"
+		"dynn_ksTi"
+		"dynn_ksUrnerg"
+		"dynn_ksUr"
 	}
 
 	dynasty_names = {
 		"dynn_ksHu"
+		"dynn_ksHu2"
+		"dynn_ksLinghu"
+		"dynn_ksKitsne"
+		"dynn_ksKi"
+		"dynn_ksTsne"
+		"dynn_ksFox"
+		"dynn_ksFo"
+		"dynn_ksRenard"
+		"dynn_ksRe"
+		"dynn_ksNa"
+		"dynn_ksFuchs"
+		"dynn_ksLisa"
+		"dynn_ksLi"
+		"dynn_ksLi2"
+		"dynn_ksLi3"
+		"dynn_ksTilki"
+		"dynn_ksTi"
+		"dynn_ksUrnerg"
+		"dynn_ksUr"
 	}
 
 	male_names = {
-		ksXian ksDa
+		ksXian ksDa ksDalang ksSong ksErwa ksXiu ksYi ksJian ksYan ksLi ksLier ksHong ksYuan ksLe ksXuan ksGui ksXin ksYu ksQingzhi ksAn
 	}
 	female_names = {
-		ksXian ksErniang ksSanniang ksSiniang ksXiaocui ksDaji
+		ksXian ksErniang ksSanniang ksSiniang ksXiaocui ksXiaohong ksDaji ksXiaomei ksXiaozhu ksXiaolan ksTao ksTaohua ksFeiyan ksYuhuan ksYaoer ksLanhua ksMuer ksXianger ksLanfang ksRuolan ksMae
 	}
 
 	dynasty_name_first = yes

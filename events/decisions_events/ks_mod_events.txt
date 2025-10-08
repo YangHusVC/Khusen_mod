@@ -36,7 +36,6 @@ ks_mod_events.0001 = {
 					save_scope_as = realm_priest
 					}
 			}
-			#Find some appropriate options
 
 			create_character = {
 				location = root.capital_province

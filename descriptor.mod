@@ -5,4 +5,5 @@ tags={
 	"Gameplay"
 }
 name="KHUSEN"
-supported_version="1.16.2.2"
+supported_version="1.17.*"
+remote_file_id="3578221891"

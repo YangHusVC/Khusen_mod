@@ -1,0 +1,7 @@
+﻿l_english:
+ #DECISION_ON_COOLDOWN: "@warning_icon! #X $DECISION_NAME$ is unavailable until [DATE.GetStringLong]#!"
+ PORTRAIT_MODIFIER_custom_ksmod: "KSMOD Additions"
+ PORTRAIT_MODIFIER_custom_ksmod_male_empty: "None"
+ PORTRAIT_MODIFIER_custom_ksmod_fox_ears_m_01: "Male Fox Ears"
+ PORTRAIT_MODIFIER_custom_ksmod_female_empty: "None"
+ PORTRAIT_MODIFIER_custom_ksmod_fox_ears_01: "Female Fox Ears"
